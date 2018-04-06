@@ -1,0 +1,277 @@
+/* =STYLESHEET FOR TL CHECK-IN 2012 */
+
+/* =GENERAL=========================================== */
+
+body {font-family: "Droid Sans",sans-serif; font-size:13px; line-height:16px; margin: 0; padding:0; color:#000; }
+
+
+
+/* =LINKS=========================================== */
+/* Defaults */
+a:link {color: #42a1af; text-decoration: none; outline:none;}
+a:visited {color: #42a1af; text-decoration: none; outline:none;}
+a:hover {color: #42a1af; text-decoration: underline; outline:none;}
+a:active {color: #42a1af; text-decoration: none; outline:none;}
+p { font-size:15px; letter-spacing:1px; }
+
+/* =TYPOGRAPHY=========================================== */
+.text10 { font-size: 10px; line-height: 15px; }
+
+.home { font-family: "Droid Sans",sans-serif; font-size: 13px; line-height: 14px; color:#fff; }
+
+.footer-tos { font-family:Arial; font-size: 10px; color: #666; }
+.footer-tos a:link {color: #666; text-decoration: underline; outline:none;}
+.footer-tos a:visited {color: #666; text-decoration: underline; outline:none;}
+.footer-tos a:hover {color: #666; text-decoration: none; outline:none;}
+.footer-tos a:active {color: #666; text-decoration: underline; outline:none;}
+
+/* =LAYOUT DIVS=========================================== */
+#container { width:952px; margin: 0 auto; padding: 0;}
+
+/* =CONTENT=========================================== */
+#content { width:952px; margin: 0 auto; }
+#content-topnav { width: 952px; height:136px; margin:0; }
+
+#content-home { width: 952px; height:551px; background:url(../images/bg-home.jpg) no-repeat 0 0; }
+#content-home-box { width: 220px; background-color: #00a0af; margin: 0 0 0 63px; padding: 24px 11px 24px 11px; }
+
+#content-ratecard { width: 952px; height:551px; background:url(../images/bg-ratecard.jpg) no-repeat 0 0; }
+#content-ratecard-box { width: 180px; background-color: #fff; margin: 0 0 0 219px; padding: 5px 11px 24px 11px; }
+
+#content-editorial { width: 952px; height:551px; background:url(../images/bg-editorial.jpg) no-repeat 0 0; }
+#content-editorial-box { width: 180px; background-color: #fff; margin: 0 0 0 286px; padding: 5px 11px 24px 11px; }
+
+#content-events { width: 952px; height:551px; background:url(../images/bg-events.jpg) no-repeat 0 0; }
+#content-events-box { width: 180px; background-color: #fff; margin: 0 0 0 353px; padding: 5px 11px 24px 11px; }
+#content-events-video { width: 900px; height: 506px; padding:20px 0 0 20px;}
+
+#content-audience { width: 952px; height:551px; background:url(../images/bg-audience.jpg) no-repeat 0 0; }
+#content-audience-box { width: 180px; background-color: #fff; margin: 0 0 0 420px; padding: 5px 11px 24px 11px; }
+
+#content-integratedmarketing { width: 952px; height:551px; background:url(../images/bg-integratedmarketing.jpg) no-repeat 0 0; }
+#content-integratedmarketing-box { width: 350px; background-color: #fff; margin: 0 0 0 554px; padding: 5px 11px 24px 11px; }
+
+#content-digitaladvertising { width: 952px; height:551px; background:url(../images/bg-digitaladvertising.jpg) no-repeat 0 0; }
+#content-digitaladvertising-box { width: 245px; background-color: #fff; margin: 0 0 0 621px; padding: 5px 11px 24px 11px; }
+
+#content-sellsheets { width: 952px; height:551px; background:url(../images/bg-sellsheets.jpg) no-repeat 0 0; }
+#content-sellsheets-box { width: 178px; background-color: #fff; margin: 0 0 0 688px; padding: 5px 11px 24px 11px; }
+
+#content-press { width: 952px; height:551px; background:url(../images/bg-press.jpg) no-repeat 0 0; }
+#content-press-box { width: 110px; background-color: #fff; margin: 0 0 0 755px; padding: 5px 11px 24px 11px; }
+
+#content-pressclips { width: 952px; height:551px; background:url(../images/bg-press.jpg) no-repeat 0 0; }
+#content-pressclips-box { width: 300px; height:522px; background-color: #fff; margin: 0 0 0 565px; padding: 5px 11px 24px 11px; overflow:scroll; }
+#content-pressclips ul { padding-left:15px; }
+#content-pressclips li { margin-bottom: 5px; }
+
+#content-mediakit { width: 952px; height:551px; background:url(../images/bg-mediakit.jpg) no-repeat 0 0; }
+#content-mediakit-box { width: 250px; background-color: #fff; margin: 0 0 0 679px; padding: 5px 11px 24px 11px; }
+
+#content-contact { width: 951px; height:551px; border: 1px solid #eee; }
+#content-contact-box { padding: 50px; }
+#content-contact-box h2 { font-size: 36px; }
+#content-contact-box h5 { alignment-baseline: baseline; color: #000000; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; line-height: 20px; margin-bottom: .5em; margin-top: .5em; background-color: #d7d7d7; padding: 6px 4px 4px 4px; width: 400px; }
+
+#footer { width:952px; margin:0 auto; text-align:center; margin:15px 0 15px 0; }
+
+
+.privacy-info-popup-holder {position: relative;margin-top:15px;}
+.privacy-info-popup-holder a {color:#242323;}
+.privacy-info-popup-holder .privacy-info-popup {bottom: 0; display: none; left: 20px; padding-bottom: 15px; position: absolute; width: 260px;}
+.privacy-info-popup-holder .privacy-info-popup .privacy-info-popup-text {background-color: #D10604; color: white; padding: 5px 5px 8px; border-radius:5px 5px;}
+.privacy-info-popup-holder .privacy-info-popup .privacy-info-popup-text a {color: blue !important;}
+
+
+
+/* =TOP NAVIGATION=========================================== */
+
+ul#topnav {
+width:954px;
+list-style:none;
+height:136px;
+margin-top: 0px;
+margin-left: 0px;
+margin-bottom: 3px;
+padding-left: 0em;
+}
+ul#topnav li {
+display:inline;
+}
+
+ul#topnav li a {
+height:136px;
+float:left;
+text-indent:-9999px;
+}
+
+/* FW LOGO */
+ul#topnav li#topnav-1 a {
+width:217px;
+background:url(../images/nav.jpg) no-repeat 0 0;
+}
+ul#topnav li#topnav-1 a:hover { background-position:0 -141px; }
+ul#topnav li#topnav-1 a.current { background-position:0 -282px; }
+
+/* Rate Card */
+ul#topnav li#topnav-2 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -217px 0;
+}
+ul#topnav li#topnav-2 a:hover { background-position:-217px -141px; }
+ul#topnav li#topnav-2 a.current { background-position:-217px -282px; }
+
+/* Editorial */
+ul#topnav li#topnav-3 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -284px 0;
+}
+ul#topnav li#topnav-3 a:hover { background-position:-284px -141px; }
+ul#topnav li#topnav-3 a.current { background-position:-284px -282px; }
+
+/* Events */
+ul#topnav li#topnav-4 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -351px 0;
+}
+ul#topnav li#topnav-4 a:hover { background-position:-351px -141px; }
+ul#topnav li#topnav-4 a.current { background-position:-351px -282px; }
+
+/* Audience */
+ul#topnav li#topnav-5 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -418px 0; }
+ul#topnav li#topnav-5 a:hover { background-position:-418px -141px; }
+ul#topnav li#topnav-5 a.current { background-position:-418px -282px; }
+
+/* Circulation */
+ul#topnav li#topnav-6 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -485px 0;
+}
+ul#topnav li#topnav-6 a:hover { background-position:-485px -141px; }
+ul#topnav li#topnav-6 a.current { background-position:-485px -282px; }
+
+/* Integrated Marketing */
+ul#topnav li#topnav-7 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -552px 0;
+}
+ul#topnav li#topnav-7 a:hover { background-position:-552px -141px; }
+ul#topnav li#topnav-7 a.current { background-position:-552px -282px; }
+
+/* Digital Advertising */
+ul#topnav li#topnav-8 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -619px 0;
+}
+ul#topnav li#topnav-8 a:hover { background-position:-619px -141px; }
+ul#topnav li#topnav-8 a.current { background-position:-619px -282px; }
+
+/* Sell Sheets */
+ul#topnav li#topnav-9 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -686px 0;
+}
+ul#topnav li#topnav-9 a:hover { background-position:-686px -141px; }
+ul#topnav li#topnav-9 a.current { background-position:-686px -282px; }
+
+/* Sales Offices */
+ul#topnav li#topnav-10 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -753px 0;
+}
+ul#topnav li#topnav-10 a:hover { background-position:-753px -141px; }
+ul#topnav li#topnav-10 a.current { background-position:-753px -282px; }
+
+/* Press */
+ul#topnav li#topnav-11 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -820px 0;
+}
+ul#topnav li#topnav-11 a:hover { background-position:-820px -141px; }
+ul#topnav li#topnav-11 a.current { background-position:-820px -282px; }
+
+/* Media Kit */
+ul#topnav li#topnav-12 a {
+width:67px;
+background:url(../images/nav.jpg) no-repeat -887px 0;
+}
+ul#topnav li#topnav-12 a:hover { background-position:-887px -141px; }
+ul#topnav li#topnav-12 a.current { background-position:-887px -282px; }
+
+/* FORM =========================================== */
+input {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-style: normal;
+margin-left:0px;
+padding-left: 0px;
+}
+.forms {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 1px 0px 1px 0px;
+	padding: 3px;
+	border: 1px solid #000000;
+	width: 150px;
+}
+.states {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 1px 0px 1px 0px;
+	padding: 2px 1px 1px 1px;
+	border: 1px solid #000000;
+	width: 60px;
+}
+.zipcode {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 1px 0px 1px 0px;
+	padding: 3px;
+	border: 1px solid #000000;
+	width: 70px;
+}
+.month {
+	background-color: #c7c4bf !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	margin: 2px 0px 2px 0px;
+	padding: 2px 3px 2px 3px;
+	border: 1px solid #c7c4bf;
+	width: 80px;
+}
+.day {
+	background-color: #c7c4bf !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	margin: 2px 0px;
+	padding: 2px 3px;
+	border: 1px solid #c7c4bf;
+	width: 52px;
+}
+.year {
+	background-color: #c7c4bf !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	margin: 2px 0px 2px 0px;
+	padding: 2px 3px 2px 3px;
+	border: 1px solid #99947c;
+	width: 62px;
+}
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size:11px;
+	padding: 3px;
+	background-color: #FFFFFF !important;
+	margin: 2px 5px 2px 0px;
+	border: 1px solid #99947c;
+	width: 200px;
+	height: 40px;
+}
+
+#error{ color:red;font-weight:bold;font-size:13px;margin-bottom:10px}
